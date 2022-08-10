@@ -28,3 +28,8 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+
+
+Route::get("/",[HomeController::class,"index"]);
